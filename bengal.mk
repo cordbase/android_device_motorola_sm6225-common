@@ -366,3 +366,6 @@ PRODUCT_COPY_FILES += \
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/motorola/sm6225-common/sm6225-common-vendor.mk)
+
+# Dolby
+$(call inherit-product, hardware/dolby/dolby.mk)
